@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "jest": "^28.1.0",
     "partial.lenses": "^14.17.0",
     "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1"
   }
 }
